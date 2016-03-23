@@ -14,6 +14,6 @@ public class RestOne {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response sayHello(){
-		return Response.ok("Hello REST World").type("text/plain").build();
+		return Response.ok("Hello REST World This is added to GIT").type("text/plain").build();
 	}
 }
